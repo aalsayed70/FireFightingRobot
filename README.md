@@ -9,10 +9,13 @@ The project incorporates multiple sensors, including a fire sensor and distance 
 
 When the fire sensor detects the presence of fire, the firefighting car initiates a series of actions to automatically orient itself towards the fire and approach it for extinguishing. Here's a high-level overview of the process:
 
-      Fire Detection: The fire sensor continuously monitors the surroundings for signs of fire, such as heat or smoke.
-      Orientation and Navigation: Once fire is detected, the car's algorithm determines the location of the fire source and calculates the appropriate orientation to face the fire.
-      Movement Towards the Fire: The motors controlling the wheels are activated to move the car towards the fire. The distance sensors help ensure safe navigation and obstacle avoidance during the approach.
-      Fire Suppression: As the car reaches the vicinity of the fire, the water pump connected to the tank is activated to spray water or other extinguishing agents onto the fire source. The aim is to suffocate the fire and reduce its intensity.
+  Fire Detection: The fire sensor continuously monitors the surroundings for signs of fire, such as heat or smoke.
+      
+   Orientation and Navigation: Once fire is detected, the car's algorithm determines the location of the fire source and calculates the appropriate orientation to face the fire.
+      
+   Movement Towards the Fire: The motors controlling the wheels are activated to move the car towards the fire. The distance sensors help ensure safe navigation and obstacle avoidance during the approach.
+      
+   Fire Suppression: As the car reaches the vicinity of the fire, the water pump connected to the tank is activated to spray water or other extinguishing agents onto the fire source. The aim is to suffocate the fire and        reduce its intensity.
 
 Monitoring and Feedback: Throughout the firefighting process, the car's sensors provide continuous feedback, allowing the system to adjust its approach and extinguishing techniques as necessary. This feedback loop ensures efficient and effective fire suppression. 
 
